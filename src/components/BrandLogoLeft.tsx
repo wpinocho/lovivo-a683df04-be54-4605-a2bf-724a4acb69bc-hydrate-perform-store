@@ -6,7 +6,9 @@ export const BrandLogoLeft = () => {
 
   if (!logos) {
     return (
-      <h1 className="text-xl font-bold text-black ml-2">OnlineStore</h1>
+      <h1 className="text-2xl font-extrabold ml-2 bg-gradient-to-r from-primary to-secondary bg-clip-text text-transparent">
+        Hydro Elite
+      </h1>
     )
   }
 
@@ -14,7 +16,9 @@ export const BrandLogoLeft = () => {
 
   if (!mainLogoUrl) {
     return (
-      <h1 className="text-xl font-bold text-black ml-2">OnlineStore</h1>
+      <h1 className="text-2xl font-extrabold ml-2 bg-gradient-to-r from-primary to-secondary bg-clip-text text-transparent">
+        Hydro Elite
+      </h1>
     )
   }
 
@@ -22,7 +26,7 @@ export const BrandLogoLeft = () => {
     <a href="/" aria-label="Home" className="ml-2">
       <img 
         src={mainLogoUrl} 
-        alt="Main logo"
+        alt="Hydro Elite"
         className="h-8 w-auto object-contain" 
       />
     </a>
